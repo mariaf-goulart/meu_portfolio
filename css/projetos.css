@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #524e66;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 55px;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.logo {
+    font-family: "Malgun Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #EEE0E5;
+    width: 200px;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.logo:hover {
+    color: #CDB5CD;
+}
+
+.menu-principal ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 400px;
+    padding: 0 80px;
+}
+
+.menu-principal ul li a {
+    font-family: "Malgun Gothic", sans-serif;
+    font-weight: bold;
+    color: #EEE0E5;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.menu-principal ul li a:hover {
+    color: #CDB5CD;
+}
+
+body {
+    background-color: #EEE0E5;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.projetos {
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    align-items: left;
+    padding-block: 60px;
+}
+
+.projetos h1 {
+    color: #CD919E;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #CDC1C5;
+    font-family: "Malgun Gothic", sans-serif;
+    font-size: 35px;
+    padding: 0px 8px;
+    text-align: left;
+}
+
+.projeto h3 {
+    color: #CD919E;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #CDC1C5;
+    font-family: "Malgun Gothic", sans-serif;
+    text-align: left;
+}
+
+
+.projeto {
+    padding: 40px 50px;
+}
+
+.projeto-nome {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 36px;
+}
+
+.icon {
+    color: #CD919E;
+    font-size: 20px;
+}
+
+.projeto p{
+    padding: 40px 0;
+    text-shadow: 2px 2px 5px #CD919E;
+    font-family: "Malgun Gothic", sans-serif;
+    color: #b0949e;
+    text-align: left;
+    font-size: 17px;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.projeto ul li {
+    color: #b0949e;
+    text-shadow: 2px 2px 5px #CD919E;
+    font-family: "Malgun Gothic", sans-serif;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.projeto ul li:hover{
+    color:#936d7a;
+}
+
+.projeto p:hover{
+    color:#936d7a;
+}
+
+.projeto img{
+    width: 600px;
+    height: 250px;
+    object-fit: cover;
+}

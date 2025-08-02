@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #524e66;
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   height: 55px;
+   align-items: center; 
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.logo{
+    font-family: "Malgun Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #EEE0E5;
+    width: 200px;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.logo:hover{
+    color: #CDB5CD;
+}
+
+.menu-principal ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 400px;
+    padding: 0 80px;
+}
+
+.menu-principal ul li a{
+    font-family: "Malgun Gothic", sans-serif;
+    font-weight: bold;
+    color: #EEE0E5;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.menu-principal ul li a:hover{
+    color: #CDB5CD;
+}
+
+body{
+    background-color: #EEE0E5;
+}
+
+main{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+form h1{
+    color: #CD919E;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #CDC1C5;
+    font-family: "Malgun Gothic", sans-serif;
+    font-size: 35px;
+    padding: 0px 8px 10px;
+    text-align: left;
+}
+
+form{    
+    border: 2px solid #e4dbde;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 800px;
+    height: 620px;
+    margin: 0 auto;
+    padding: 30px 40px 30px 40px;
+    background-color: #e4dbde;
+    box-shadow: 10px 15px 30px #CDC1C5;
+}
+
+form label{
+    font-family: "Malgun Gothic", sans-serif;
+    font-size: 20px;
+    padding: 4px 20px;
+    color: #666666;
+}
+
+input#nome, input#email, input#assunto, textarea{
+    padding: 10px;
+    border: 1px solid #f0f0f0;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: "malgun Gothic", sans-serif;
+    font-size: 16px;
+    color: #313131;
+}
+
+button{
+    background-color: #524e66;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px #CDC1C5;
+    text-align: center;
+    font-weight: bold;
+    color: #EEE0E5;
+    font-size: 13px;
+    width: 100px;
+    margin: 40px 4px;
+}
+
+/*botao*/
+
+.hidden{
+    display: none;
+}
+
+.show{
+    background-color: rgba(0,0,0,0.6);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meio{
+    background-color: rgb(220, 218, 218);
+    width: 200px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.meio p{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.meio button{
+    background-color: #524e66;
+    border: none;
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px #CDC1C5;
+}
